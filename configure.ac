@@ -2,9 +2,9 @@ AC_PREREQ(2.53)
 
 m4_define([mwb_version], [0.1.0])
 
-AC_INIT(netpanel, [mwb_version], http://www.moblin.org/)
+AC_INIT(moblin-panel-web, [mwb_version], http://www.moblin.org/)
 AM_INIT_AUTOMAKE()
-AC_CONFIG_SRCDIR(netpanel/moblin-panel-internet.c)
+AC_CONFIG_SRCDIR(netpanel/moblin-panel-web.c)
 AM_CONFIG_HEADER(config.h)
 AM_MAINTAINER_MODE
 
@@ -22,7 +22,7 @@ AC_SUBST(MWB_VERSION)
 # ****
 
 AS_ALL_LINGUAS
-GETTEXT_PACKAGE=netpanel
+GETTEXT_PACKAGE=moblin-panel-web
 AC_SUBST(GETTEXT_PACKAGE)
 AC_DEFINE_UNQUOTED(GETTEXT_PACKAGE,"$GETTEXT_PACKAGE",
                    [The gettext package name])
