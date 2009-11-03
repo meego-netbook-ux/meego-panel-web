@@ -32,13 +32,13 @@ AM_GLIB_GNU_GETTEXT
 IT_PROG_INTLTOOL([0.40.4])
 
 dnl Both the panel and the browser need the following
-PKG_CHECK_MODULES(MOZHELPER, mozhelper-1.0)
 PKG_CHECK_MODULES(NBTK, nbtk-1.2)
 PKG_CHECK_MODULES(GTK, gtk+-2.0)
 
 NBTKDATADIR=`${PKG_CONFIG} --variable=prefix nbtk-1.2`"/share/nbtk"
 AC_SUBST(NBTKDATADIR)
 
+PKG_CHECK_MODULES(SQLITE, sqlite3)
 PKG_CHECK_MODULES(MPL, moblin-panel)
 PKG_CHECK_MODULES(NETPANEL, clutter-x11-1.0 clutter-1.0)
 
