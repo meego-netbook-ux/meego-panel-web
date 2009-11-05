@@ -1,6 +1,6 @@
 AC_PREREQ(2.53)
 
-m4_define([mwb_version], [0.1.3])
+m4_define([mwb_version], [0.1.4])
 
 AC_INIT(moblin-panel-web, [mwb_version], http://www.moblin.org/)
 AM_INIT_AUTOMAKE()
