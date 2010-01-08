@@ -1,6 +1,6 @@
 AC_PREREQ(2.53)
 
-m4_define([mwb_version], [0.1.4])
+m4_define([mwb_version], [0.1.5])
 
 AC_INIT(moblin-panel-web, [mwb_version], http://www.moblin.org/)
 AM_INIT_AUTOMAKE()
@@ -31,12 +31,11 @@ AM_GLIB_GNU_GETTEXT
 
 IT_PROG_INTLTOOL([0.40.4])
 
-dnl Both the panel and the browser need the following
-PKG_CHECK_MODULES(NBTK, nbtk-1.2)
+PKG_CHECK_MODULES(MX, mx-1.0 >= 0.2.0)
 PKG_CHECK_MODULES(GTK, gtk+-2.0)
 
-NBTKDATADIR=`${PKG_CONFIG} --variable=prefix nbtk-1.2`"/share/nbtk"
-AC_SUBST(NBTKDATADIR)
+MXDATADIR=`${PKG_CONFIG} --variable=prefix mx-1.0`"/share/mx"
+AC_SUBST(MXDATADIR)
 
 PKG_CHECK_MODULES(SQLITE, sqlite3)
 PKG_CHECK_MODULES(MPL, moblin-panel)
@@ -44,15 +43,15 @@ PKG_CHECK_MODULES(NETPANEL, clutter-x11-1.0 clutter-1.0)
 
 AC_ARG_ENABLE([cache],
               [AC_HELP_STRING([--enable-cache],
-                              [Enable Nbtk image cache generation])],
+                              [Enable Mx image cache generation])],
               [],
               [enable_cache=no])
 
 AS_IF([test "x$enable_cache" = "xyes"],
       [
-      AC_CHECK_PROG([NBTK_CREATE_IMAGE_CACHE],
-                [nbtk-create-image-cache],
-                [$(which nbtk-create-image-cache)])
+      AC_CHECK_PROG([MX_CREATE_IMAGE_CACHE],
+                [mx-create-image-cache],
+                [$(which mx-create-image-cache)])
 ])
 
 AM_CONDITIONAL([ENABLE_CACHE],   [test "x$enable_cache" = "xyes"])
