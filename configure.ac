@@ -4,7 +4,7 @@ m4_define([mwb_version], [0.1.5])
 
 AC_INIT(moblin-panel-web, [mwb_version], http://www.moblin.org/)
 AM_INIT_AUTOMAKE()
-AC_CONFIG_SRCDIR(netpanel/moblin-panel-web.c)
+AC_CONFIG_SRCDIR(netpanel/moblin-panel-web.cc)
 AM_CONFIG_HEADER(config.h)
 AM_MAINTAINER_MODE
 
