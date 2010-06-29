@@ -2,9 +2,9 @@ AC_PREREQ(2.53)
 
 m4_define([mwb_version], [0.1.5])
 
-AC_INIT(moblin-panel-web, [mwb_version], http://www.moblin.org/)
+AC_INIT(meego-panel-web, [mwb_version], http://www.meego.org/)
 AM_INIT_AUTOMAKE()
-AC_CONFIG_SRCDIR(netpanel/moblin-panel-web.cc)
+AC_CONFIG_SRCDIR(netpanel/meego-panel-web.cc)
 AM_CONFIG_HEADER(config.h)
 AM_MAINTAINER_MODE
 
@@ -22,7 +22,7 @@ AC_SUBST(MWB_VERSION)
 # ****
 
 AS_ALL_LINGUAS
-GETTEXT_PACKAGE=moblin-panel-web
+GETTEXT_PACKAGE=meego-panel-web
 AC_SUBST(GETTEXT_PACKAGE)
 AC_DEFINE_UNQUOTED(GETTEXT_PACKAGE,"$GETTEXT_PACKAGE",
                    [The gettext package name])
@@ -39,7 +39,7 @@ MXDATADIR=`${PKG_CONFIG} --variable=prefix mx-1.0`"/share/mx"
 AC_SUBST(MXDATADIR)
 
 PKG_CHECK_MODULES(SQLITE, sqlite3)
-PKG_CHECK_MODULES(MPL, moblin-panel)
+PKG_CHECK_MODULES(MPL, meego-panel)
 PKG_CHECK_MODULES(NETPANEL, clutter-x11-1.0 clutter-1.0)
 
 AC_ARG_ENABLE([cache],
