@@ -1,8 +1,8 @@
 AC_PREREQ(2.53)
 
-m4_define([mwb_version], [0.1.5])
+m4_define([mwb_version], [0.2.0])
 
-AC_INIT(meego-panel-web, [mwb_version], http://www.meego.org/)
+AC_INIT(meego-panel-web, [mwb_version], http://www.meego.com/)
 AM_INIT_AUTOMAKE()
 AC_CONFIG_SRCDIR(netpanel/meego-panel-web.cc)
 AM_CONFIG_HEADER(config.h)
