@@ -33,7 +33,6 @@ IT_PROG_INTLTOOL([0.40.4])
 
 PKG_CHECK_MODULES(MX, mx-1.0 >= 0.2.0)
 PKG_CHECK_MODULES(GTK, gtk+-2.0)
-PKG_CHECK_MODULES(CHROME, chromium-browser)
 
 MXDATADIR=`${PKG_CONFIG} --variable=prefix mx-1.0`"/share/mx"
 AC_SUBST(MXDATADIR)
