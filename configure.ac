@@ -1,6 +1,6 @@
 AC_PREREQ(2.53)
 
-m4_define([mwb_version], [0.2.0])
+m4_define([mwb_version], [0.2.1])
 
 AC_INIT(meego-panel-web, [mwb_version], http://www.meego.com/)
 AM_INIT_AUTOMAKE()
