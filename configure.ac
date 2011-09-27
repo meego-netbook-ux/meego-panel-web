@@ -39,6 +39,10 @@ AC_SUBST(MXDATADIR)
 
 PKG_CHECK_MODULES(SQLITE, sqlite3)
 PKG_CHECK_MODULES(MPL, meego-panel)
+
+MEEGO_PANELS_DIR=`$PKG_CONFIG --variable=meego_panel_panels_dir meego-panel`
+AC_SUBST(MEEGO_PANELS_DIR)
+
 PKG_CHECK_MODULES(NETPANEL, clutter-x11-1.0 clutter-1.0)
 
 AC_ARG_ENABLE([cache],
