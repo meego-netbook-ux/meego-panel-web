@@ -1,31 +1,34 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Mikel Pascual Aldabaldetreku <mikel.paskual@gmail.com>, 2009.
-#
+# 
+# Translators:
+# 9and3r <9and3r@gmail.com>, 2011.
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-04-20 13:46-0400\n"
-"PO-Revision-Date: 2009-10-13 12:50+0100\n"
-"Last-Translator: Mikel Pascual Aldabaldetreku <mikel.paskual@gmail.com>\n"
-"Language-Team: \n"
+"Project-Id-Version: meego-panel-web\n"
+"Report-Msgid-Bugs-To: https://bugs.meego.com/\n"
+"POT-Creation-Date: 2011-11-04 12:46+0000\n"
+"PO-Revision-Date: 2011-03-22 18:13+0000\n"
+"Last-Translator: 9and3r <9and3r@gmail.com>\n"
+"Language-Team: Basque (http://www.transifex.net/projects/p/meego/team/eu/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: eu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #. Translators: This string ends up in the autocomplete list and
 #. is used for searching. '%%s' is the string that the user
 #. typed in to the entry box and '%s' is the name of the search
 #. engine provider (such as 'Yahoo!'). It is safe to swap the
 #. order of these markers if necessary in your language
-#: ../common/mwb-ac-list.cc:1311
+#: ../common/mwb-ac-list.cc:1288
 #, c-format
 msgid "Search for %%s on %s"
 msgstr "%%s bilatu %s-n"
 
-#: ../common/mwb-ac-list.cc:1334
+#: ../common/mwb-ac-list.cc:1311
 #, c-format
 msgid "Go to %s"
 msgstr "%s-ra joan"
@@ -46,7 +49,7 @@ msgstr ""
 "'Behera' sakatu\n"
 "zerrenda arakatzeko"
 
-#: ../netpanel/meego-netbook-netpanel.cc:789
+#: ../netpanel/meego-netbook-netpanel.cc:882
 msgid ""
 "As you visit web pages, your favorites will appear here and on the New tab "
 "page in the browser."
@@ -54,240 +57,41 @@ msgstr ""
 "Webguneak bisitatzen dituzun eran, zure gogokoenak hemen eta arakatzailean "
 "'Fitxa berria' agertuko dira."
 
-#: ../netpanel/meego-netbook-netpanel.cc:811
-#: ../netpanel/meego-netbook-netpanel.cc:934
+#: ../netpanel/meego-netbook-netpanel.cc:1032
+#: ../netpanel/meego-netbook-netpanel.cc:1171
 msgid "New tab"
 msgstr "Fitxa berria"
 
 #. Construct entry table widgets
-#: ../netpanel/meego-netbook-netpanel.cc:1198
-#, fuzzy
+#: ../netpanel/meego-netbook-netpanel.cc:1572
 msgid "Your pages"
-msgstr "Orri gogokoenak"
+msgstr "Zure orrialdeak"
 
-#: ../netpanel/meego-netbook-netpanel.cc:1211
+#: ../netpanel/meego-netbook-netpanel.cc:1585
 msgid "Search"
 msgstr "Bilatu"
 
 #. Construct title for tab preview section
-#: ../netpanel/meego-netbook-netpanel.cc:1232
+#: ../netpanel/meego-netbook-netpanel.cc:1606
 msgid "Tabs"
 msgstr "Fitxak"
 
 #. Construct title for favorite pages section
-#: ../netpanel/meego-netbook-netpanel.cc:1237
+#: ../netpanel/meego-netbook-netpanel.cc:1611
 msgid "Favorite pages"
 msgstr "Orri gogokoenak"
 
-#: ../netpanel/meego-panel-web.cc:195
+#: ../netpanel/meego-panel-web.cc:128
 #: ../netpanel/meego-panel-internet.desktop.in.in.h:2
 msgid "internet"
 msgstr "internet"
 
-#: ../netpanel/meego-panel-web.cc:216 ../netpanel/meego-panel-web.cc:262
+#: ../netpanel/meego-panel-web.cc:150 ../netpanel/meego-panel-web.cc:209
 msgid "Internet"
 msgstr "Internet"
 
 #: ../netpanel/meego-panel-internet.desktop.in.in.h:1
-#, fuzzy
 msgid "Internet panel"
-msgstr "Internet"
+msgstr "Interneteko panela"
 
-#~ msgid "Oops!"
-#~ msgstr "Hara!"
 
-#~ msgid "New tab page"
-#~ msgstr "Fitxa berria"
-
-#~ msgid "Reload page"
-#~ msgstr "Orria birkargatu"
-
-#~ msgid ""
-#~ "Sorry, <span color=\"#909090\">%s</span> appears to have caused this tab "
-#~ "to crash. The rest of the browser is unharmed. You can try to reload the "
-#~ "page or visit another one."
-#~ msgstr ""
-#~ "Lastima, badirudi <span color=\"#909090\">%s</span>-k fitxa hau "
-#~ "kraskatuarazi duela. Ez da arakatzailearen beste ezer kaltetu. Orria "
-#~ "birkagatzen saiatu zaitezke, edo beste bat bisitatu dezakezu."
-
-#~ msgid "It's the internet"
-#~ msgstr "Internet da"
-
-#~ msgid "Web Browser"
-#~ msgstr "Web-Arakatzailea"
-
-#~ msgid "Meego web browser - "
-#~ msgstr "Meego web-arakatzailea - "
-
-#~ msgid "Untitled"
-#~ msgstr "Izengabea"
-
-#~ msgid "Downloads"
-#~ msgstr "Deskargak"
-
-#~ msgid "Downloads - %d%%"
-#~ msgstr "Deskargak - %d%%"
-
-#~ msgid "Meego web browser"
-#~ msgstr "Meego web-arakatzailea"
-
-#~ msgid "Download cancelled"
-#~ msgstr "Deskarga ezeztatua"
-
-#~ msgid "Download completed"
-#~ msgstr "Deskarga burutua"
-
-#~ msgid "Open file"
-#~ msgstr "Fitxategia ireki"
-
-#~ msgid "Run the browser in a window"
-#~ msgstr "Leiho batean exekutatu arakatzailea"
-
-#~ msgid "Add the URL to the recent files list"
-#~ msgstr "Azken fitxategien zerrendara gehitu URLa"
-
-#~ msgid "Meego Web Browser"
-#~ msgstr "Meego Web-Arakatzailea"
-
-#~ msgid "Open link in new tab"
-#~ msgstr "Fitxa berrian ireki fitxa"
-
-#~ msgid "Copy link location"
-#~ msgstr "Estekaren kokalekua kopiatu"
-
-#~ msgid ""
-#~ "Do you want to reset your browser? This will remove your web history, "
-#~ "pinned pages and personal settings. "
-#~ msgstr ""
-#~ "Zure arakatzailea garbitu nahi al duzu? Zure web historia, orri markatuak "
-#~ "eta ezarpen pertsonalak ezabatuko dira."
-
-#~ msgid "Yes, delete"
-#~ msgstr "Bai, ezabatu"
-
-#~ msgid "No, save"
-#~ msgstr "Ez, gorde"
-
-#~ msgid ""
-#~ "No pinned pages. Push the pin in the automagic bar on a page you wish to "
-#~ "remember."
-#~ msgstr ""
-#~ "Markatutako orririk ez. Barra automagikoarekin markatu ditzakezu gogoratu "
-#~ "nahi dituzun orriak."
-
-#~ msgid "More pinned pages"
-#~ msgstr "Markatutako orri gehiago"
-
-#~ msgid "No matching pages were found"
-#~ msgstr "Ez da kointzidentziarik aurkitu"
-
-#~ msgid "__ wants to know your location."
-#~ msgstr "__ zure kokalekua ezagutu nahi du."
-
-#~ msgid "Share location"
-#~ msgstr "Kokalekua konpartitu"
-
-#~ msgid "Don't share"
-#~ msgstr "Ez konpartitu"
-
-#~ msgid "Remember for this site"
-#~ msgstr "Webgune honetarako gogoratu"
-
-#~ msgid "Settings"
-#~ msgstr "Ezarpenak"
-
-#~ msgid "General"
-#~ msgstr "Orokorrak"
-
-#~ msgid "Try to complete domain names in automagic bar"
-#~ msgstr "Domeinu-izenak osatzen saiatu barra automagikoan"
-
-#~ msgid "Search in automagic bar"
-#~ msgstr "Barra automagikoan bilatu"
-
-#~ msgid "Add new search engine"
-#~ msgstr "Bilaketa-motore berria gehitu"
-
-#~ msgid "Privacy"
-#~ msgstr "Pribatutasuna"
-
-#~ msgid "Remember my passwords"
-#~ msgstr "Nire pasahitzak gogoratu"
-
-#~ msgid "Remember what I type into forms"
-#~ msgstr "Formularioetan idazten dudana gogoratu"
-
-#~ msgid "Keep my browser history for up to"
-#~ msgstr "Nire arakatzailearen historia gorde"
-
-#~ msgid "1 year"
-#~ msgstr "urte 1"
-
-#~ msgid "1 month"
-#~ msgstr "hilabete 1"
-
-#~ msgid "1 week"
-#~ msgstr "aste 1"
-
-#~ msgid "1 day"
-#~ msgstr "egun 1"
-
-#~ msgid "Reset my browser now"
-#~ msgstr "Arakatzailea garbitu"
-
-#~ msgid "Pinned pages"
-#~ msgstr "Markatutako orriak"
-
-#~ msgid "Trouble connecting?"
-#~ msgstr "Konektatzeko arazoak?"
-
-#~ msgid ""
-#~ "Move your pointer to the top of the screen to bring down the toolbar and "
-#~ "choose the Networks panel."
-#~ msgstr ""
-#~ "Panatailaren goralderaino mugitu ezazu sagua tresna-barra agertarazteko, "
-#~ "eta Sareak panela hautatu ezazu."
-
-#~ msgid ""
-#~ "Welcome to Meego Netbook Web Browser. When you visit pages your favorite "
-#~ "ones will show up here."
-#~ msgstr ""
-#~ "Ongietorri Meego Netbook Web-Arakatzailera. Orriak bisitatzen "
-#~ "dituzunean, hemen agertuko dira zure gogokoenak."
-
-#~ msgid "Getting started"
-#~ msgstr "Nola hasi"
-
-#~ msgid ""
-#~ "First, make sure you have an internet connection! Then click on the "
-#~ "automagic bar or press Ctrl+L to get there quickly and type the address "
-#~ "or search you want."
-#~ msgstr ""
-#~ "Lehenik, internet konexioa duzula egiaztatu ezazu! Ondoren, barra "
-#~ "automagikoan egizu klik edo Ctrl+L sakatu ezazu nahi duzun helbidea edo "
-#~ "bilaketa idazteko."
-
-#~ msgid "Make this a private tab"
-#~ msgstr "Probatu bihurtu fitxa hau"
-
-#~ msgid ""
-#~ "This is a private tab. Things you do in this tab will not be stored on "
-#~ "this machine. However, websites you use may still keep records of your "
-#~ "actions."
-#~ msgstr ""
-#~ "Pribatua da fitxa hau. Ez da fitxa honetan egiten duzunaren arrastorik "
-#~ "gordeko ordenagailu honetan. Halaere, webguneek zure ekintzen erregistroa "
-#~ "gorde dezakete."
-
-#~ msgid "Meego Web Browser is proudly based on Mozilla technology"
-#~ msgstr "Mozilla-ren teknologian oinarritzen da Meego Web-Arakatzailea"
-
-#~ msgid "Go"
-#~ msgstr "Joan"
-
-#~ msgid "Next"
-#~ msgstr "Hurrengoa"
-
-#~ msgid "Previous"
-#~ msgstr "Aurrekoa"
